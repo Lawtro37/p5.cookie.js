@@ -33,7 +33,7 @@
             console.warn("cookies are not enabled");
             alert("please enable cookies");
         }else{
-            setValue(name, null);
+            this.setValue(name, null);
         }
     }
 
